@@ -1,42 +1,51 @@
 .App {
   background-color: transparent;
-  color:green;
+  color: green;
   height: 100vh;
   padding: 1rem;
   box-sizing: border-box;
 }
-center h1{
+
+.portfolo {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+
+}
+
+center h1 {
   margin-top: 0%;
   background-color: transparent;
   color: green;
 }
+
 input {
   border: none;
   outline: none;
-  width: 67.3%;
+
   padding: 18px;
-  background:  rgba(0, 0, 0, 0.466);
+  background: rgba(0, 0, 0, 0.466);
   color: purple;
-  margin-left: 300px;
+
   font-size: 14px;
   border-radius: 0 0 4px 4px;
   border-top: 1px solid rgba(red, green, blue, alpha);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
+
 .terminal {
   white-space: pre-line;
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.466) ;
+  background-color: rgba(0, 0, 0, 0.466);
   color: purple;
-  width: 70%;
   height: 70%;
-  margin-left: 300px;
+  padding: 18px;
 
 }
-.grid {
-  display: grid;
-  place-items: center;
-}
+
 
 setOutput {
   color: purple;
@@ -50,15 +59,16 @@ setOutput {
   top: 0;
   left: 0;
   width: fit-content;
-  
+
 }
-.maincont{
+
+.maincont {
   color-scheme: rgb;
   width: 1000px;
   margin: 0 auto;
 }
 
-.maincont h2{
+.maincont h2 {
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -69,4 +79,3 @@ setOutput {
   opacity: 0;
   animation: FadeAnimation 1s ease-in-out 0s forwards;
 }
-
